@@ -2,10 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
       Home
     </title>
+    <style>
+      .table{
+        border-collapse: collapse;
+        margin: 25px;
+        min-width: 10px;
+        width: 10%;
+        border: 2px solid #000000;
+        text-align: left;
+      }
+      .table thead tr {
+        text-align: left;
+
+      }
+      .table th,
+      .table td {
+        padding: 12px 12px;
+        border: 1px solid #777474;
+      }
+      .table tbody tr{
+        border-bottom: 1px solid #777171;
+
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -31,6 +54,37 @@
           <a href="https://lh3.googleusercontent.com/dp90rdoKVDiS9KrVwPdvApOr9ezAMC505u3WuWvuUg3qYVwgw4HyhnlC6VLvRYxVY4uwuziQN3ot8df4RT8EfOOoflVex7_nMYs">ALX Do Hard Things</a>
         </figure>
         <a href="tweets.html">My first tweets</a>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>25</td>
+              <td>USA</td>
+            </tr>
+            <tr>
+              <td>Emily</td>
+              <td>28</td>
+              <td>Canada</td>
+            </tr>
+            <tr>
+              <td>Michael</td>
+              <td>32</td>
+              <td>Australia</td>
+            </tr>
+            <tr>
+              <td>Sophia</td>
+              <td>21</td>
+              <td>UK</td>
+            </tr>
+          </tbody>
+        </table>
       </article>
       <aside>
         <p>placeholder to add comment thread later</p>
